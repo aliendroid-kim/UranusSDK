@@ -1,0 +1,3 @@
+rootProject.name = "UranusSDK"
+include ':app'
+include ':AlienAdsV2'
