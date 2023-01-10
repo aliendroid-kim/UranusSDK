@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         //AliendroidInitialize.SelectAdsApplovinMax(this,"","85460dcd");
         AliendroidNative.SmallNativeAdmob(this,layNative,"","ca-app-pub-3940256099942544/2247696110",
                 "", "","","","","");
-        AliendroidBanner.SmallBannerAdmob(this,layAds,"","ca-app-pub-3940256099942544/6300978111",
-                "", "","","","","");
+        AliendroidBanner.SmallBannerApplovinMax(this,layAds,"","ca-app-pub-3940256099942544/6300978111",
+                "");
        // AliendroidNative.MediumNativeMax(this,layNative,"","DefaultBanner","");
       //  AliendroidBanner.SmallBannerApplovinMax(this,layAds,"","Home_Screen","");
 

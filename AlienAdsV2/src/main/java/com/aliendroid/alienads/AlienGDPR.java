@@ -101,7 +101,7 @@ public class AlienGDPR {
                         }
                     }
                 } );
-                AppLovinPrivacySettings.setHasUserConsent( true, activity );
+                AppLovinPrivacySettings.setHasUserConsent( false, activity );
                 AppLovinPrivacySettings.setIsAgeRestrictedUser( childDirected, activity );
                 break;
             case "APPLOVIN-D":
