@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 30
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -33,17 +33,17 @@ dependencies {
     implementation "androidx.multidex:multidex:2.0.1"
 
     //Main Sdk Ads
-    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
     implementation 'com.facebook.android:audience-network-sdk:6.14.0'
-    implementation 'com.applovin:applovin-sdk:11.9.0'
-    implementation 'com.ironsource.sdk:mediationsdk:7.3.0'
-    implementation 'com.startapp:inapp-sdk:4.10.12'
+    implementation 'com.applovin:applovin-sdk:11.11.1'
+    implementation 'com.ironsource.sdk:mediationsdk:7.3.1.1'
+    implementation 'com.startapp:inapp-sdk:4.11.0'
 
     //Applovin
     implementation 'com.applovin.mediation:facebook-adapter:6.14.0.0'
     implementation 'com.applovin.mediation:google-adapter:21.4.0.1'
 
-    implementation 'com.applovin.mediation:ironsource-adapter:7.2.6.0.1'
+    implementation 'com.applovin.mediation:ironsource-adapter:7.3.0.1.0'
 
     //Iron Source
     implementation 'com.ironsource.adapters:facebookadapter:4.3.38'
@@ -53,11 +53,11 @@ dependencies {
 
     //Admob
     implementation 'com.google.ads.mediation:facebook:6.14.0.0'
-    implementation 'com.google.ads.mediation:applovin:11.9.0.0'
-    implementation 'com.google.ads.mediation:ironsource:7.3.0.0'
+    implementation 'com.google.ads.mediation:applovin:11.11.1.0'
+    implementation 'com.google.ads.mediation:ironsource:7.3.1.1'
 
-    implementation 'com.google.android.ump:user-messaging-platform:2.0.0'
-    implementation 'com.flurry.android:analytics:14.0.0'
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+    implementation 'com.flurry.android:analytics:14.3.0'
     implementation 'com.google.android.gms:play-services-appset:16.0.2'
     implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
     implementation 'com.google.android.gms:play-services-basement:18.2.0'
